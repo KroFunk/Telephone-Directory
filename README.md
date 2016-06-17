@@ -1,4 +1,4 @@
-# Telephone-Directory
+#Telephone-Directory
 Telephone Directory is a web app written in PHP. The data is pulled from an easy to edit CSV file.  
 
 ##Setup
@@ -21,6 +21,17 @@ There is a folder called "app" in the files, the DesktopDirectory.zip can be dow
 5. Place a shortcut to the application in the users Startup Directory so it launches on sign in  
 
 ##Features
+
+**Search**  
+
+The Search Bar on the top right of the screen can be used to refine the results in the table. All fields are searchable, in the example data you can search by name, initials, department, number and description!  
+
+You can also click the top of each column to sort that column alphabetically asc or desc.  
+
+**Favourites**  
+
+You can make a particular contact in the Directory a favourite by clicking the star next to it. Favourites always sit at the top of the list. To unfavourite someone, simply click the star again.  
+
 **Manually Set table Height**  
 
 You can manually specify the height of the table containing the numbers, the table will then scroll rather than the whole webpage. This is useful if using the companion desktop application.
