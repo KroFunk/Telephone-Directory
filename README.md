@@ -3,6 +3,7 @@ Telephone Directory utilising an easy to edit CSV file
 
 ##Setup
 **This is the abridged Setup process**  
+
 1. Extract the files into your desired location on a webserver (this can be a workstation running WAMP/LAMP/MAMP etc)  
 2. Configure $location, $bannerColour and $headerColour in index.php  
 3. Replace logo.png with your company logo (200 by 50 pixels)  
@@ -10,8 +11,9 @@ Telephone Directory utilising an easy to edit CSV file
 5. Navigate to the URL for the location on your webserver to verify everything looks good  
 6. Distribute the URL to people likely to need/want it so they can bookmark it...and have a cuppa :coffee:  
 
-**Bonus Points** __Optional.__
+**Bonus Points** __Optional.__  
 There is a folder called "app" in the files, the DesktopDirectory.zip can be downloaded by your users so they can access the Telephone Directory from their system tray.  
+
 1. Download and Extract the DesktopDirectory.zip to a client machine  
 2. Run and complete the setup.exe  
 3. Right click the little blue/white phone icon and click the "About and Settings" option  
