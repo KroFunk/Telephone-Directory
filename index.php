@@ -4,7 +4,7 @@
 //This is the location of your directory, it can be a complete path (e.g $location = "C:\Directory\directory.csv";) or a relative path (e.g $location = "../../directory.csv";)
 $location = "directory.csv";
 
-//#0C2D4E
+//These are the colours used by the webpage, you can use hex colour codes like '#0C2D4E', RGB colours like 'rgb(86, 61, 124)' or web safe colours like 'red'
 $bannerColour = "green";
 $headerColour = "#4A4A49";
 
