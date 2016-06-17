@@ -1,5 +1,5 @@
 # Telephone-Directory
-Telephone Directory utilising an easy to edit CSV file  
+Telephone Directory is a web app written in PHP. The data is pulled from an easy to edit CSV file.  
 
 ##Setup
 **This is the abridged Setup process**  
@@ -12,20 +12,22 @@ Telephone Directory utilising an easy to edit CSV file
 6. Distribute the URL to people likely to need/want it so they can bookmark it...and have a cuppa :coffee:  
 
 **Bonus Points** __Optional.__  
-There is a folder called "app" in the files, the DesktopDirectory.zip can be downloaded by your users so they can access the Telephone Directory from their system tray.  
+There is a folder called "app" in the files, the DesktopDirectory.zip can be downloaded by your users so they can access the Telephone Directory by double clicking the icon in the system tray.  
 
-1. Download and Extract the DesktopDirectory.zip to a client machine  
-2. Run and complete the setup.exe  
+1. Download and Extract the DesktopDirectory.zip on a client machine  
+2. Run setup.exe and follow prompts  
 3. Right click the little blue/white phone icon and click the "About and Settings" option  
-4. Enter your Telephone Directory URL in the box provided and click OK  
-5. Place a shortcut to the application in the users Startup Directory to have the app launch on sign in  
+4. Enter your Telephone Directory URL in the box provided and click "OK"  
+5. Place a shortcut to the application in the users Startup Directory so it launches on sign in  
 
 ##Features
-###Manually Set Height
+**Manually Set table Height**  
+
 You can manually specify the height of the table containing the numbers, the table will then scroll rather than the whole webpage. This is useful if using the companion desktop application.
  To do this, simply add '?scroll=200' to the end of the URL (Where 200 is your desired table height).  
 
-###Automatic Height
+**Automatic table Height**  
+
 Similar to the Manual Height setting,  the table will then scroll rather than the whole webpage accept the page will guess the best fit. To do this, simply add '?auto' to the end of the URL.  
 
 ##Troubleshooting
